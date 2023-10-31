@@ -44,3 +44,8 @@ h1{
     /* block-size: 100px; */
 
 }
+.copy_right{
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
