@@ -5,6 +5,13 @@ table , thead{
     margin-bottom: 30px;
     /* border-radius: 10px; */
     background-color: chocolate;
+    text-decoration: none;
+    outline:   darkblue;
+    outline-color: black;
+    outline-style:  dotted;
+    outline-width: 5px;
+    
+    
 
 }
 table,th,td{
