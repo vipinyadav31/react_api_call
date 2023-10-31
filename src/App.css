@@ -1,5 +1,45 @@
+table , thead{
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 1px 5px  10px 5px  gray ;
+    margin-bottom: 30px;
+    /* border-radius: 10px; */
+
+}
 table,th,td{
-justify-content: center;
+/* justify-content: center; */
 border-collapse: collapse;
-border: solid 1px;
+border: solid 2px;
+/* box-shadow: 10px 30px  40px 5px  gray ; */
+ 
+/* border-radius: 10px; */
+ background-color: antiquewhite;
+
+}
+
+th{
+    background-color: #49a3a6;
+    padding: 10px 20px;
+
+}
+
+td{
+    padding: 4px 10px;
+}
+tr{
+    background-color:  wheat;
+}
+h1{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seagreen;
+    padding: 8px;
+    box-shadow: 1px 5px  10px 5px  gray ;
+    /* block-size: 100px; */
+
 }

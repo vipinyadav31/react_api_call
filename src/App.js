@@ -16,24 +16,24 @@ function App() {
     const arr1 = data.map((data, index) => {
         return (
             <tr key = {index}>
-                <td>{data.userId}</td>
                 <td>{data.id}</td>
+                <td>{data.userId}</td>
                 <td>{data.title}</td>
-                <td>{data.body}</td>
+                <td>{data.body.slice(1 , 100)}</td>
             </tr>
         );
     });
 
     return (
         <div className="App">
-            <h1>axios is here</h1>
+            <h1>Getting data from jsonplaceholder api</h1>
             <table>
             <thead>
                 <tr>
-                    <th>UserId</th>
-                    <th>id</th>
-                    <th>title</th>
-                    <th>body</th>
+                    <th>Id</th>
+                    <th>User</th>
+                    <th>Title</th>
+                    <th>Body</th>
                   </tr>
             </thead>
             <tbody>
