@@ -5,6 +5,13 @@ table , thead{
     margin-bottom: 30px;
     /* border-radius: 10px; */
     background-color: chocolate;
+    text-decoration: none;
+    outline:   darkblue;
+    outline-color: black;
+    outline-style:  dotted;
+    outline-width: 5px;
+    
+    
 
 }
 table,th,td{
@@ -43,4 +50,9 @@ h1{
     box-shadow: 1px 5px  10px 5px  gray ;
     /* block-size: 100px; */
 
+}
+.copy_right{
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
 }
