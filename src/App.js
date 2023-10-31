@@ -26,7 +26,6 @@ function App() {
 
     return (
         <div className="App">
-        <p className="copy_right">@ copyright vipin yadav open to all</p>
             <h1>Getting data from jsonplaceholder api</h1>
             <table>
             <thead>
