@@ -27,7 +27,6 @@ function App() {
     return (
         <div className="App">
             <h1>Getting data from jsonplaceholder api</h1>
-            <h1>hellow</h1>
             <table>
             <thead>
                 <tr>
