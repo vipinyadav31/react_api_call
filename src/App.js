@@ -15,8 +15,8 @@ function App() {
 
     const arr1 = data.map((data, index) => {
         return (
-            <tr key = {index}>
-                <td>{data.id}</td>
+            <tr key = {index} >
+                <td  >{data.id}</td>
                 <td>{data.userId}</td>
                 <td>{data.title}</td>
                 <td>{data.body.slice(1 , 100)}</td>
