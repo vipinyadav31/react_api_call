@@ -7,12 +7,9 @@ table , thead{
     background-color: chocolate;
     text-decoration: none;
     outline:   darkblue;
-    outline-color: black;
-    outline-style:  dotted;
+    /* outline-color: black;
+    outline-style:  solid; */
     outline-width: 5px;
-    
-    
-
 }
 table,th,td{
 /* justify-content: center; */
@@ -55,4 +52,11 @@ h1{
     display: flex;
     justify-content: center;
     opacity: 0.9;
+}
+
+
+.tr_container{
+
+    display: flex;
+    justify-content: center;
 }
